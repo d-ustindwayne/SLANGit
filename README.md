@@ -40,7 +40,7 @@ Read the research paper detailing the development of the SLANGit application her
 For any inquiries or support, feel free to reach out through the following channels:
 
 - Google: nepomucenodwayne@gmail.com
-- Facebook: Dustin Dwayne Diaz
+- Facebook: [Dustin Dwayne Diaz](https://www.facebook.com/buday.py)
 - Instagram: [@mapang.he](https://www.instagram.com/mapang.he)
 - GitHub: [d-ustindwayne](https://github.com/d-ustindwayne)
 - Telegram: [@dadelayons](https://t.me/dadelayons)
