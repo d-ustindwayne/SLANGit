@@ -1,13 +1,6 @@
 # SLANGit - Slang Dictionary Mobile Application
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Demo](#demo)
-- [Research Paper](#research-paper)
-- [Contact](#contact)
+![SLANGit](SLANGit_Logo.ong)
 
 ## Overview
 SLANGit is a user-friendly Android-based dictionary application that can be used both online and offline. It aims to collect and define slang terms passed down through generations or newly developed slangs in our times that is used by individuals of all ages.
@@ -20,7 +13,7 @@ SLANGit is a user-friendly Android-based dictionary application that can be used
 ## Technologies Used
 - Software: Andromo, a mobile application builder for both Android and iOS compatibility.
 - Data Input: Manual entry of each word's meaning, definition, audio, and source via HTML source code.
-- Language & Framework: Flutter with Dart programming language 
+- Language & Framework: Flutter with Dart programming language used by the Andromo tool. 
 
 ## Installation
 To install the application, follow these steps:
