@@ -1,6 +1,6 @@
 # SLANGit - Slang Dictionary Mobile Application
 
-![SLANGit](SLANGit_Logo.ong)
+![SLANGit](SLANGit_Logo.png)
 
 ## Overview
 SLANGit is a user-friendly Android-based dictionary application that can be used both online and offline. It aims to collect and define slang terms passed down through generations or newly developed slangs in our times that is used by individuals of all ages.
@@ -33,3 +33,4 @@ Read the research paper detailing the development of the SLANGit application her
 - [Ashia Bettina Jamisola](https://www.facebook.com/ashia.jamisola) **(Leader)**
 - [Jean Rose Bandianon](https://www.facebook.com/bandianonjeanrose) **(Member)**
 - [Dustin Dwayne Diaz](https://www.facebook.com/buday.py) **(Member)**
+
