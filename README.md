@@ -4,7 +4,7 @@
 
 ## Overview
 SLANGit is a user-friendly Android-based dictionary application that can be used both online and offline. It aims to collect and define slang terms passed down through generations or newly developed slangs in our times that is used by individuals of all ages.
-* The source code for the app cannot be retrieved from Andromo
+* *Note:* The source code for the app cannot be retrieved from Andromo
 
 ## Features
 - Categorization of slang by Generation X, Y, Z, and Alpha.
@@ -34,5 +34,6 @@ Read the research paper detailing the development of the SLANGit application her
 - [Ashia Bettina Jamisola](https://www.facebook.com/ashia.jamisola) **(Leader)**
 - [Jean Rose Bandianon](https://www.facebook.com/bandianonjeanrose) **(Member)**
 - [Dustin Dwayne Diaz](https://www.facebook.com/buday.py) **(Member)**
+
 
 
