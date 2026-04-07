@@ -16,6 +16,8 @@ SLANGit is a user-friendly Android-based dictionary application that can be used
 - Data Input: Manual entry of each word's meaning, definition, audio, and source via HTML source code.
 - Language & Framework: Flutter with Dart programming language used by the Andromo tool. 
 
+*Source code is not available due to Andromo being a closed-sourced tool*
+
 ## Installation
 To install the application, follow these steps:
 1. Download the APK file from the repository in your mobile device. [Application File (APK)](SLANGit.apk)
