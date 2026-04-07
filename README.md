@@ -3,8 +3,8 @@
 ![SLANGit](SLANGit_Logo.png)
 
 ## Overview
-SLANGit is a user-friendly Android-based dictionary application that can be used both online and offline. It aims to collect and define slang terms passed down through generations or newly developed slangs in our times that is used by individuals of all ages.
-* *Note:* The source code for the app cannot be retrieved from Andromo
+SLANGit is a user-friendly Android-based dictionary application that can be used both online and offline. It aims to collect and define slang terms passed down through generations or newly developed slangs in our times that is used by individuals of all ages. The app was initially released in Amazon Store but we couldn't fund the maintenance for it and there were no logical reasons for it to be maintained.
+*Note:* Source code is not available due to Andromo being a close-sourced tool.
 
 ## Features
 - Categorization of slang by Generation X, Y, Z, and Alpha.
@@ -15,8 +15,6 @@ SLANGit is a user-friendly Android-based dictionary application that can be used
 - Software: Andromo, a mobile application builder for both Android and iOS compatibility.
 - Data Input: Manual entry of each word's meaning, definition, audio, and source via HTML source code.
 - Language & Framework: Flutter with Dart programming language used by the Andromo tool. 
-
-*Source code is not available due to Andromo being a closed-sourced tool*
 
 ## Installation
 To install the application, follow these steps:
