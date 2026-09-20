@@ -1,1 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLANGit</title>
+    <style>
+        :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; }
+        body { max-width: 60rem; margin: 2rem auto; padding: 0 1rem; }
+        a, button { color: LinkText; font: inherit; }
+        button { background: none; border: 0; padding: 0; text-decoration: underline; cursor: pointer; }
+        header { display: flex; gap: 1.5rem; align-items: center; }
+        img { flex: none; }
+        h1 { margin: 0 0 .25rem; }
+        header p { margin: 0; }
+        .cols { display: grid; grid-template-columns: 3fr 2fr; gap: 2rem; margin-top: 2rem; }
+        video { width: 100%; height: auto; background: #000; }
+        h2 { font-size: 1rem; margin: 0 0 .5rem; }
+        ul { margin: 0; padding-left: 1.2rem; }
+        li { margin-bottom: .5rem; }
+        dialog, [popover] { max-width: 34rem; padding: 1rem 1.5rem; border: 1px solid; }
+        dialog { max-height: 80vh; overflow: auto; }
+        dialog h3 { font-size: 1rem; margin: 1.2rem 0 .25rem; }
+        footer { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid; font-size: .9rem; }
+        @media (max-width: 40rem) { header, .cols { display: block; } }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="SLANGit_Logo.png" alt="SLANGit Logo" width="96" height="96">
+        <div>
+            <h1>SLANGit</h1>
+            <p>SLANGit is a user-friendly Android-based dictionary application that can be used both online and offline. It aims to collect and define slang terms passed down through generations or newly developed slangs in our times that is used by individuals of all ages. The app was initially released in Amazon Store but we couldn't fund the maintenance for it and there were no logical reasons for it to be maintained.</p>
+        </div>
+    </header>
 
+    <main class="cols">
+        <section>
+            <h2>Video Demo</h2>
+            <video controls title="SLANGit Demo Video" preload="metadata" autoplay loop playsinline>
+                <source src="SLANGit_Video_Presentation.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section>
+            <h2>Contents and resources</h2>
+            <ul>
+                <li><a href="SLANGit.apk" download>Download APK</a></li>
+                <li><button popovertarget="install">How to install</button></li>
+                <li><button command="show-modal" commandfor="readme">README</button></li>
+                <li><a href="SLANGit_Research_Paper.pdf" target="_blank" rel="noopener noreferrer">Research Paper</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <div id="install" popover>
+        <h2>How to install</h2>
+        <ol>
+            <li>Download <code>SLANGit.apk</code> on your Android phone.</li>
+            <li>Open the file. If asked, allow installs from your browser or file manager.</li>
+            <li>Tap <b>Install</b>, then open SLANGit.</li>
+        </ol>
+    </div>
+
+    <dialog id="readme">
+        <h2>SLANGit - Slang Dictionary Mobile Application</h2>
+
+        <h3>Overview</h3>
+        <p>SLANGit is a user-friendly Android-based dictionary application that can be used both online and offline. It aims to collect and define slang terms passed down through generations or newly developed slangs in our times that is used by individuals of all ages. The app was initially released in Amazon Store but we couldn't fund the maintenance for it and there were no logical reasons for it to be maintained.</p>
+        <p><em>Note:</em> Source code is not available due to Andromo being a close-sourced tool.</p>
+
+        <h3>Features</h3>
+        <ul>
+            <li>Categorization of slang by Generation X, Y, Z, and Alpha.</li>
+            <li>Each word includes a definition, audio pronunciation, and a link to the source of the meaning.</li>
+            <li>Reels feature for discovering new slang terms and entertainment purposes.</li>
+        </ul>
+
+        <h3>Technologies Used</h3>
+        <ul>
+            <li>Software: Andromo, a mobile application builder for both Android and iOS compatibility.</li>
+            <li>Data Input: Manual entry of each word's meaning, definition, audio, and source via HTML source code.</li>
+            <li>Language & Framework: Flutter with Dart programming language used by the Andromo tool.</li>
+        </ul>
+
+        <h3>Installation</h3>
+        <p>To install the application, follow these steps:</p>
+        <ol>
+            <li>Download the APK file from the repository in your mobile device. <a href="SLANGit.apk" download>Application File (APK)</a></li>
+            <li>Open and install the application's APK file.</li>
+            <li>Run the application and browse the dictionary of various slang.</li>
+        </ol>
+
+        <h3>Demo</h3>
+        <p>Watch the video demonstration to learn more about the SLANGit application: <a href="SLANGit_Video_Presentation.mp4" target="_blank" rel="noopener noreferrer">Application Demo</a></p>
+
+        <h3>Research Paper</h3>
+        <p>Read the research paper detailing the development of the SLANGit application here: <a href="SLANGit_Research_Paper.pdf" target="_blank" rel="noopener noreferrer">Research Paper</a></p>
+
+        <h3>Creators</h3>
+        <ul>
+            <li><a href="https://www.facebook.com/ashia.jamisola" target="_blank" rel="noopener noreferrer">Ashia Bettina Jamisola</a> <b>(Leader)</b></li>
+            <li><a href="https://www.facebook.com/bandianonjeanrose" target="_blank" rel="noopener noreferrer">Jean Rose Bandianon</a> <b>(Member)</b></li>
+            <li><a href="https://www.facebook.com/buday.py" target="_blank" rel="noopener noreferrer">Dustin Dwayne Diaz</a> <b>(Member)</b></li>
+        </ul>
+
+        <p><button command="close" commandfor="readme">Close</button></p>
+    </dialog>
+
+    <footer>
+        Created by
+        <a href="https://www.facebook.com/ashia.jamisola" target="_blank" rel="noopener noreferrer">Ashia Bettina Jamisola</a>,
+        <a href="https://www.facebook.com/bandianonjeanrose" target="_blank" rel="noopener noreferrer">Jean Rose Bandianon</a>, and
+        <a href="https://www.facebook.com/buday.py" target="_blank" rel="noopener noreferrer">Dustin Dwayne Diaz</a>.
+    </footer>
+</body>
+</html>
