@@ -1,0 +1,25 @@
+# Ignore the .env file and the .vscode directory
+
+# This folder is currently where i have the proposed project revamping into a web app
+app/
+
+# Ignore environment variable files
+.env
+*.todo
+
+# Ignore Visual Studio Code settings and log files
+.vscode/
+*.log
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output directories
+dist/
+
+# Ignore temporary files and directories
+*.tmp
+*.swp
+
+# Ignore OS-specific files
+.DS_Store
